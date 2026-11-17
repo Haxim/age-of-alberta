@@ -1,0 +1,21 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+.vscode/
+.idea/
+
+# Throwaway tooling (image prep, etc.) — not part of the deployed site
+.tools/
+
+# Scratch source art (kept locally, never deployed)
+ChatGPT Image*.png
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env / secrets (none expected — pure static site, but just in case)
+.env
+.env.*

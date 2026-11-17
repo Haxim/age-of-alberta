@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: age-of-alberta
+    runtime: static
+    # No build step needed — the game is pre-built static HTML/JS/assets.
+    buildCommand: ""
+    staticPublishPath: ./public
+    # Send every unknown path back to the game's entry point.
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=3600

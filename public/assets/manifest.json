@@ -1,0 +1,93 @@
+{
+  "workers": {
+    "farmer": {
+      "file": "w_farmer.png",
+      "w": 334,
+      "h": 411
+    },
+    "lumberjack": {
+      "file": "w_lumberjack.png",
+      "w": 311,
+      "h": 415
+    },
+    "miner": {
+      "file": "w_miner.png",
+      "w": 289,
+      "h": 408
+    },
+    "builder": {
+      "file": "w_builder.png",
+      "w": 285,
+      "h": 415
+    },
+    "explorer": {
+      "file": "w_explorer.png",
+      "w": 329,
+      "h": 416
+    }
+  },
+  "buildings": {
+    "townhall": {
+      "file": "b_townhall.png",
+      "w": 336,
+      "h": 373
+    },
+    "cabin": {
+      "file": "b_cabin.png",
+      "w": 374,
+      "h": 357
+    },
+    "farm": {
+      "file": "b_farm.png",
+      "w": 423,
+      "h": 302
+    },
+    "sawmill": {
+      "file": "b_sawmill.png",
+      "w": 405,
+      "h": 265
+    },
+    "lab": {
+      "file": "b_lab.png",
+      "w": 376,
+      "h": 281
+    },
+    "tower": {
+      "file": "b_tower.png",
+      "w": 202,
+      "h": 366
+    },
+    "well": {
+      "file": "b_well.png",
+      "w": 292,
+      "h": 420
+    },
+    "datacenter": {
+      "file": "b_datacenter.png",
+      "w": 742,
+      "h": 850
+    }
+  },
+  "transport": {
+    "wagon": {
+      "file": "u_wagon.png",
+      "w": 420,
+      "h": 286
+    },
+    "combine": {
+      "file": "u_combine.png",
+      "w": 420,
+      "h": 339
+    },
+    "drone": {
+      "file": "u_drone.png",
+      "w": 409,
+      "h": 420
+    },
+    "robot": {
+      "file": "u_robot.png",
+      "w": 679,
+      "h": 900
+    }
+  }
+}
